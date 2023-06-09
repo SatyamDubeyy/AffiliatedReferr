@@ -1,0 +1,118 @@
+.cont{
+  width: 100%;
+  height: 100vh;
+  background-color: #fa8c16;
+  display: flex;
+}
+
+.right,.left{
+    width: 50%;
+}
+.cont p{
+  font-size: 1.5rem;
+}
+
+.left{
+  background-color: #fa8c16;
+  
+}
+
+.right{
+  background-color: #1677ff;
+  position: relative;
+}
+
+.seperator{
+  width: 0;
+  height: 0;
+  border-top: 100vh solid transparent;
+  border-right: 60vh solid #1677ff;
+  /* margin-top: 13.9vh; */
+}
+
+.leftData,.rightData{
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  color: black;
+}
+
+.cont h1{
+  font-size: 4rem;
+}
+
+.rightData{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.cont button{
+    padding: .7em 0;
+    width: 13rem;
+    font-size: larger;
+    border-radius: 2rem;
+    border: 3px solid black;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.right button:hover{
+  background-color: #fa8c16;
+}
+
+.left button:hover{
+  background-color: #1677ff;
+  color: antiquewhite;
+}
+
+.boxes{
+  display: flex;
+  flex-direction: row;
+  width: 96vw;
+  margin: auto;
+  background-color: white;
+  margin-top: 3rem;
+  border-radius: 2rem;
+  box-shadow: inset 0 0 10px #f8a100;
+}
+
+.boxes .s1,.boxes .s2,.boxes .s3{
+  width: 33%;
+  text-align: center;
+  border-radius: 2rem;
+  transition: all .5s ease-in-out;
+}
+.boxes .sep{
+  width: .2rem;
+  background-color: #1677ff;
+  margin: 1.5rem;
+}
+.logo{
+  text-align: center;
+  padding-bottom: 20rem;
+}
+.boxes h4,h5{
+  color: #1677ff;
+  margin: 2rem;
+  font-size: 4rem;
+}
+.boxes h5{
+  color: black;
+  font-size: 3rem;
+}
+
+.nomargin{
+  margin-bottom: 0 !important;
+  padding: 0;
+}
+
+.s2 h5{
+  margin: 0;
+  padding-bottom: 1rem;
+}
+.boxes > div:hover{
+    transform: scale(0.9);
+    background-color: whitesmoke;
+}
